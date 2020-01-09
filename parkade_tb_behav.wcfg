@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="parkade_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="parkade_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="998100000fs"></ZoomStartTime>
+      <ZoomEndTime time="1003788001fs"></ZoomEndTime>
+      <Cursor1Time time="999996000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="216"></NameColumnWidth>
+      <ValueColumnWidth column_width="194"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/parkade_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parkade_tb/clk_out" type="logic">
+      <obj_property name="ElementShortName">clk_out</obj_property>
+      <obj_property name="ObjectShortName">clk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parkade_tb/led6_r" type="logic">
+      <obj_property name="ElementShortName">led6_r</obj_property>
+      <obj_property name="ObjectShortName">led6_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parkade_tb/led6_g" type="logic">
+      <obj_property name="ElementShortName">led6_g</obj_property>
+      <obj_property name="ObjectShortName">led6_g</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parkade_tb/led6_b" type="logic">
+      <obj_property name="ElementShortName">led6_b</obj_property>
+      <obj_property name="ObjectShortName">led6_b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parkade_tb/CC" type="logic">
+      <obj_property name="ElementShortName">CC</obj_property>
+      <obj_property name="ObjectShortName">CC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parkade_tb/sw" type="array">
+      <obj_property name="ElementShortName">sw[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parkade_tb/out_7seg" type="array">
+      <obj_property name="ElementShortName">out_7seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">out_7seg[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parkade_tb/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+</wave_config>

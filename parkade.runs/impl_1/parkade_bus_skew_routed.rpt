@@ -1,0 +1,15 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Nov  1 14:51:21 2019
+| Host         : e5-01-19 running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file parkade_bus_skew_routed.rpt -pb parkade_bus_skew_routed.pb -rpx parkade_bus_skew_routed.rpx
+| Design       : parkade
+| Device       : 7z010-clg400
+| Speed File   : -1  PRODUCTION 1.11 2014-09-11
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

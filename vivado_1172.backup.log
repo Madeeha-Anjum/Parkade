@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Oct 30 21:47:09 2019
+# Process ID: 1172
+# Current directory: C:/Users/gaiya/Desktop/lab2-sd/lab2-parkade-eclass/parkade
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7548 C:\Users\gaiya\Desktop\lab2-sd\lab2-parkade-eclass\parkade\parkade.xpr
+# Log file: C:/Users/gaiya/Desktop/lab2-sd/lab2-parkade-eclass/parkade/vivado.log
+# Journal file: C:/Users/gaiya/Desktop/lab2-sd/lab2-parkade-eclass/parkade\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gaiya/Desktop/lab2-sd/lab2-parkade-eclass/parkade/parkade.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/e501tech/Documents/ECE410/lab2-parkade/parkade' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Oct 30 21:49:27 2019] Launched synth_1...
+Run output will be captured here: C:/Users/gaiya/Desktop/lab2-sd/lab2-parkade-eclass/parkade/parkade.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed Oct 30 21:50:00 2019] Launched impl_1...
+Run output will be captured here: C:/Users/gaiya/Desktop/lab2-sd/lab2-parkade-eclass/parkade/parkade.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Oct 30 22:09:42 2019] Launched synth_1...
+Run output will be captured here: C:/Users/gaiya/Desktop/lab2-sd/lab2-parkade-eclass/parkade/parkade.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed Oct 30 22:10:26 2019] Launched impl_1...
+Run output will be captured here: C:/Users/gaiya/Desktop/lab2-sd/lab2-parkade-eclass/parkade/parkade.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Oct 30 22:11:26 2019] Launched impl_1...
+Run output will be captured here: C:/Users/gaiya/Desktop/lab2-sd/lab2-parkade-eclass/parkade/parkade.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210351A7800DA
+open_hw_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1845.789 ; gain = 891.371
+set_property PROGRAM.FILE {C:/Users/gaiya/Desktop/lab2-sd/lab2-parkade-eclass/parkade/parkade.runs/impl_1/parkade.bit} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/gaiya/Desktop/lab2-sd/lab2-parkade-eclass/parkade/parkade.runs/impl_1/parkade.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 30 22:31:39 2019...
